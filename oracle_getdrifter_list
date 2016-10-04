@@ -19,7 +19,7 @@ import numpy as np
 from matplotlib.path import Path
 from erddap_getdrifter_list_function import getobs_drift_byrange,get_fvcom_gom3_grid,getobs_drift_byidrange,ingom3
 ####hard code###
-model='both'#'30yr' 'roms' 'both'
+model='30yr'#'30yr' 'roms' 'both'
 gbox=[-66,-68,42,41]
 depth='=-1'#'=-1'/'=-15'/'<-1'
 minday=10#the track must long than minday
